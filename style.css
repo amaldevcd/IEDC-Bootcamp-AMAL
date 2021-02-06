@@ -7,33 +7,42 @@ body
 {
     
     color: #001021;
-    font-family:  'Courier New', Courier, monospace;
+    font-family:  'Monaco';
     font-size: 20px;
 }
 .banner
 {
     /* background-color: #9A8F97; */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(img.jpg);
     background-position: center;
     background-size: cover;
     height: 1000px;
     width: 100%;
     position: relative;
+    
 }
 .banner-text
 {
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 45%;
     left: 50;
     transform: translate(-50%,-50);
-    color:#6EC72D;
+    color:#F4BE2C;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    padding: 4px;
 }
 .banner-text h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
-    letter-spacing: 7.9px;
+    font-size: 85px;
+    letter-spacing: 8.9px;
+}
+.btn 
+{
+    display: inline-block;
+    border: 4px solid #EFF54D;
+    padding: 10px;
+    left: auto;
 }
