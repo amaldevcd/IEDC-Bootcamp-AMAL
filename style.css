@@ -6,9 +6,9 @@ padding:0;
 body
 {
     
-    color: #001021;
-    font-family:  'Monaco';
     font-size: 20px;
+    color:#7bdff2;
+    font-family: 'Courier New', Courier, monospace;
 }
 .banner
 {
@@ -43,7 +43,7 @@ body
 .btn 
 {
     display: inline-block;
-    border: 4px solid #a3cef1;
+    border: 2px solid #a3cef1;
     padding: 10px;
     left: auto;
     cursor: pointer;
@@ -53,4 +53,20 @@ body
     background-color:#a3cef1 ;
     color:white;
     transition: all .5s;
+}
+.activity
+{
+    border: 3px solid white;
+    border-radius: 5px;
+    
+    background-color: #4A5759;
+    text-align: center;
+    padding: 30px;
+    font-size: 29px;
+}
+.activity input[type="button"] ,.activity input[type="submit"]
+{
+    background-color:#a3cef1 ;
+    border: none;
+    padding: 8px;
 }
