@@ -47,6 +47,8 @@ body
     padding: 10px;
     left: auto;
     cursor: pointer;
+    text-decoration: none;
+    color: #a3cef1;
 }
 .btn:hover
 {
