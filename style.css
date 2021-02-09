@@ -68,7 +68,7 @@ body
     padding: 30px;
     font-size: 29px;
 }
-.activity input[type="button"] ,.activity input[type="submit"]
+.activity input[type="button"] ,.activity input[type="submit"] ,.activity input[type="reset"]
 {
     background-color:#a3cef1 ;
     border: none;
