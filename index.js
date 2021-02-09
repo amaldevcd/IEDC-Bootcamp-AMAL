@@ -33,5 +33,12 @@ function listall()
 function balance()
 {
 var bal=Sumsave-Sumex;
+if(bal < 0)
+{
+document.getElementById("balan").innerHTML=0;
+}
+else
+{
 document.getElementById("balan").innerHTML=bal;
+}
 }
