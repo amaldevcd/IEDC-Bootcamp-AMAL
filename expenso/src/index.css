@@ -1,0 +1,116 @@
+*
+{
+margin: 0;
+padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    
+    font-size: 20px;
+    color:#7bdff2;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner_hero
+{
+    /* background-color: #9A8F97; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.banner_text
+{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translate(-50%,-50);
+    color:#7bdff2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+}
+.banner_text p
+{
+    font-size: 24px;
+    padding: 25px;
+}
+.banner_text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:12vw;
+    letter-spacing: 8.9px;
+    color:#8ac926;
+}
+.btn 
+{
+    display: inline-block;
+    border: 2px solid #a3cef1;
+    padding: 10px;
+    left: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: #a3cef1;
+}
+.btn:hover
+{
+    background-color:#a3cef1 ;
+    color:white;
+    transition: all .5s;
+}
+.activity
+{
+    /* border: 3px solid white;
+    border-radius: 5px; */
+    
+    background-color: #4A5759;
+    text-align: center;
+    padding: 30px;
+    font-size: 29px;
+}
+.activity input[type="button"] ,.activity input[type="submit"] ,.activity input[type="reset"]
+{
+    background-color:#a3cef1 ;
+    border: none;
+    padding: 8px;
+    cursor:pointer;
+}
+form
+{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    display:inline-block; 
+    margin-top: 30px;
+}
+.section2
+{
+    background-color: #4A5759;
+}
+.section2 h2
+{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #8ac926;
+}
+p
+{
+    padding: 85px;
+    padding-top: 10px; 
+    font-size: 24px;
+    line-height: 40px;
+}
+.footer
+{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;
+}
