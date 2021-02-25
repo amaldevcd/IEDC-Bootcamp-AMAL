@@ -1,6 +1,6 @@
 # IEDC-Bootcamp-AMAL
 MADE USING HTML, CSS AND JAVASCRIPT
-(Not a responsive site)
+
 
 
 
